@@ -9,7 +9,7 @@ script:
 deploy:
   provider: lambda
   function_name: "ucsb-sa-ssis-hero-villan-sample-api"
-  region: "us-west-w"
+  region: "us-west-2"
   role: "arn:aws:iam::035849207430:role/service-role/ucsb-sa-ssis-hero-villan-sample-api-role-uyunq8mw"
   runtime: "python3.7"
   handler_name: "handler"
