@@ -12,4 +12,4 @@ deploy:
   region: "us-west-2"
   role: "arn:aws:iam::035849207430:role/service-role/ucsb-sa-ssis-hero-villan-sample-api-role-uyunq8mw"
   runtime: "python3.7"
-  handler_name: "handler"
+  handler_name: "default.handler"
