@@ -13,4 +13,5 @@ def handler(event, context):
     }
     # logging for debugging purpose
     print(returnVal)
+
     return returnVal
