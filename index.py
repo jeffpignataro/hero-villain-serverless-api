@@ -28,7 +28,7 @@ def callApiMethod(pathArgs, qsArgs):
     function = pathArgs[1] or {}
     file = pathArgs[2] or {}
     method = pathArgs[3] or {}
-    id = pathArgs[4] or {}
+    id = int(pathArgs[4]) or {}
 
     executingMethod = import_module(
         'functions.{}.{}.{}'.format(controller, function, file))
