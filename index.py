@@ -16,7 +16,7 @@ def handler(event, context):
 
     returnVal = {
         "statusCode": 200,
-        "body": json.dumps("Path value: {pathMethodValue}\nQuery string value: {qsMethodValue}")
+        "body": json.dumps(f"Path value: {pathMethodValue}\nQuery string value: {qsMethodValue}")
     }
     # logging for debugging purpose
     print(returnVal)
