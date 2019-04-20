@@ -1,4 +1,5 @@
 from models.shared.person import Person
+from models.villan.villan import Villan
 
 
 class Hero(object):
