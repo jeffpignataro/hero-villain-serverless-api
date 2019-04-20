@@ -1,7 +1,7 @@
 from models.shared.person import Person
 from models.hero.hero import Hero
 from models.villain.villain import Villain
-from helpers.data import *
+from helpers.data import getJsonFromFile, getJsonObjectById
 
 
 def getHeroById(id):
