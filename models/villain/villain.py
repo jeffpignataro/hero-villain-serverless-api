@@ -1,10 +1,10 @@
 from models.shared.person import Person
 
 
-class Villan(object):
-    def __init__(self, person: Person, alias, powers, crimes):
+class Villain(object):
+    def __init__(self, person: Person, alias, publisher, crimes):
         self.realname = person.name
         self.age = person.age
         self.alias = alias
-        self.powers = powers
+        self.publisher = publisher
         self.crimes = crimes

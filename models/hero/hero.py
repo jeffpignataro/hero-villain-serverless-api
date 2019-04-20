@@ -1,11 +1,11 @@
 from models.shared.person import Person
-from models.villan.villan import Villan
+from models.villain.villain import Villain
 
 
 class Hero(object):
-    def __init__(self, person: Person, alias, powers, archenemy: Villan):
+    def __init__(self, person: Person, alias, publisher, archenemy: Villain):
         self.realname = person.name
         self.age = person.age
         self.alias = alias
-        self.powers = powers
+        self.publisher = publisher
         self.archenemy = archenemy

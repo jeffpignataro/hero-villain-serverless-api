@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "alias": "Batman",
+    "publisher": "DC Comics",
+    "name": "Bruce Wayne",
+    "first_appearance": "Detective Comics #27",
+    "characters": "Bruce Wayne"
+  },
+  {
+    "id": 2,
+    "alias": "Superman",
+    "publisher": "DC Comics",
+    "name": "Kal-El",
+    "first_appearance": "Action Comics #1",
+    "characters": "Kal-El"
+  },
+  {
+    "id": 3,
+    "alias": "Flash",
+    "publisher": "DC Comics",
+    "name": "Jay Garrick",
+    "first_appearance": "Flash Comics #1",
+    "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+  },
+  {
+    "id": 4,
+    "alias": "Green Lantern",
+    "publisher": "DC Comics",
+    "name": "Alan Scott",
+    "first_appearance": "All-American Comics #16",
+    "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+  },
+  {
+    "id": 5,
+    "alias": "Green Arrow",
+    "publisher": "DC Comics",
+    "name": "Oliver Queen",
+    "first_appearance": "More Fun Comics #73",
+    "characters": "Oliver Queen"
+  },
+  {
+    "id": 6,
+    "alias": "Wonder Woman",
+    "publisher": "DC Comics",
+    "name": "Princess Diana",
+    "first_appearance": "All Star Comics #8",
+    "characters": "Princess Diana"
+  },
+  {
+    "id": 7,
+    "alias": "Martian Manhunter",
+    "publisher": "DC Comics",
+    "name": "J'onn J'onzz",
+    "first_appearance": "Detective Comics #225",
+    "characters": "Martian Manhunter"
+  },
+  {
+    "id": 8,
+    "alias": "Robin/Nightwing",
+    "publisher": "DC Comics",
+    "name": "Dick Grayson",
+    "first_appearance": "Detective Comics #38",
+    "characters": "Dick Grayson"
+  },
+  {
+    "id": 9,
+    "alias": "Blue Beetle",
+    "publisher": "DC Comics",
+    "name": "Dan Garret",
+    "first_appearance": "Mystery Men Comics #1",
+    "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+  },
+  {
+    "id": 10,
+    "alias": "Black Canary",
+    "publisher": "DC Comics",
+    "name": "Dinah Drake",
+    "first_appearance": "Flash Comics #86",
+    "characters": "Dinah Drake, Dinah Lance"
+  },
+  {
+    "id": 11,
+    "alias": "Spider Man",
+    "publisher": "Marvel Comics",
+    "name": "Peter Parker",
+    "first_appearance": "Amazing Fantasy #15",
+    "characters": "Peter Parker"
+  },
+  {
+    "id": 12,
+    "alias": "Captain America",
+    "publisher": "Marvel Comics",
+    "name": "Steve Rogers",
+    "first_appearance": "Captain America Comics #1",
+    "characters": "Steve Rogers"
+  },
+  {
+    "id": 13,
+    "alias": "Iron Man",
+    "publisher": "Marvel Comics",
+    "name": "Tony Stark",
+    "first_appearance": "Tales of Suspense #39",
+    "characters": "Tony Stark"
+  },
+  {
+    "id": 14,
+    "alias": "Thor",
+    "publisher": "Marvel Comics",
+    "name": "Thor Odinson",
+    "first_appearance": "Journey into Myster #83",
+    "characters": "Thor Odinson"
+  },
+  {
+    "id": 15,
+    "alias": "Hulk",
+    "publisher": "Marvel Comics",
+    "name": "Bruce Banner",
+    "first_appearance": "The Incredible Hulk #1",
+    "characters": "Bruce Banner"
+  },
+  {
+    "id": 16,
+    "alias": "Wolverine",
+    "publisher": "Marvel Comics",
+    "name": "James Howlett",
+    "first_appearance": "The Incredible Hulk #180",
+    "characters": "James Howlett"
+  },
+  {
+    "id": 17,
+    "alias": "Daredevil",
+    "publisher": "Marvel Comics",
+    "name": "Matthew Michael Murdock",
+    "first_appearance": "Daredevil #1",
+    "characters": "Matthew Michael Murdock"
+  },
+  {
+    "id": 18,
+    "alias": "Hawkeye",
+    "publisher": "Marvel Comics",
+    "name": "Clinton Francis Barton",
+    "first_appearance": "Tales of Suspense #57",
+    "characters": "Clinton Francis Barton"
+  },
+  {
+    "id": 19,
+    "alias": "Cyclops",
+    "publisher": "Marvel Comics",
+    "name": "Scott Summers",
+    "first_appearance": "X-Men #1",
+    "characters": "Scott Summers"
+  },
+  {
+    "id": 20,
+    "alias": "Silver Surfer",
+    "publisher": "Marvel Comics",
+    "name": "Norrin Radd",
+    "first_appearance": "The Fantastic Four #48",
+    "characters": "Norrin Radd"
+  }
+]

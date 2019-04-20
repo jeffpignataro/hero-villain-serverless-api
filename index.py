@@ -10,17 +10,17 @@ def handler(event, context):
     if pathParameters and 'proxy' in pathParameters:
         parsedPathParameters = pathParameters['proxy'].split("/")
 
-    # This is where the magic happens
-    apiResponse = callApiMethod(parsedPathParameters, queryStringParameters)
+    try:
+        # This is where the magic happens
+        apiResponse = callApiMethod(
+            parsedPathParameters, queryStringParameters)
+    except Exception as e:
+        return responseObject(502, "Error executing method. Error information: {}".format(e))
 
-    returnVal = {
-        "statusCode": 200,
-        "body": json.dumps(apiResponse)
-    }
-    # logging for debugging purpose
-    print(returnVal)
+    if not apiResponse:
+        return responseObject(404, "Error: No method found.")
 
-    return returnVal
+    return responseObject(200, apiResponse)
 
 
 def callApiMethod(pathArgs, qsArgs):
@@ -33,3 +33,10 @@ def callApiMethod(pathArgs, qsArgs):
         'functions.{}.{}.{}'.format(controller, function, method))
     executingMethodReturnObject = getattr(executingMethod, method)(id)
     return executingMethodReturnObject
+
+
+def responseObject(statusCode, message):
+    return {
+        "statusCode": statusCode,
+        "body": json.dumps(message)
+    }

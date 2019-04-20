@@ -1,0 +1,149 @@
+[
+  {
+    "alias": "Two Face",
+    "publisher": "DC Comics",
+    "name": "Harvey Dent",
+    "first_appearance": "Detective Comics #66",
+    "crimes": [
+      "Murder",
+      "Kidnapping",
+      "Racketeering"
+    ]
+  },
+  {
+    "alias": "Lex Luthor",
+    "publisher": "DC Comics",
+    "name": "Alexander Joseph 'Lex' Luthor",
+    "first_appearance": "Action Comics #23",
+    "crimes": [
+      "Murder",
+      "Racketeering"
+    ]
+  },
+  {
+    "alias": "The Fiddler",
+    "publisher": "DC Comics",
+    "name": "Isaac Bowin",
+    "first_appearance": "Flash Comics #1",
+    "crimes": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+  },
+  {
+    "alias": "Green Lantern",
+    "publisher": "DC Comics",
+    "name": "Alan Scott",
+    "first_appearance": "All-American Comics #16",
+    "crimes": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+  },
+  {
+    "alias": "Green Arrow",
+    "publisher": "DC Comics",
+    "name": "Oliver Queen",
+    "first_appearance": "More Fun Comics #73",
+    "crimes": "Oliver Queen"
+  },
+  {
+    "alias": "Wonder Woman",
+    "publisher": "DC Comics",
+    "name": "Princess Diana",
+    "first_appearance": "All Star Comics #8",
+    "crimes": "Princess Diana"
+  },
+  {
+    "alias": "Martian Manhunter",
+    "publisher": "DC Comics",
+    "name": "J'onn J'onzz",
+    "first_appearance": "Detective Comics #225",
+    "crimes": "Martian Manhunter"
+  },
+  {
+    "alias": "Robin/Nightwing",
+    "publisher": "DC Comics",
+    "name": "Dick Grayson",
+    "first_appearance": "Detective Comics #38",
+    "crimes": "Dick Grayson"
+  },
+  {
+    "alias": "Blue Beetle",
+    "publisher": "DC Comics",
+    "name": "Dan Garret",
+    "first_appearance": "Mystery Men Comics #1",
+    "crimes": "Dan Garret, Ted Kord, Jaime Reyes"
+  },
+  {
+    "alias": "Black Canary",
+    "publisher": "DC Comics",
+    "name": "Dinah Drake",
+    "first_appearance": "Flash Comics #86",
+    "crimes": "Dinah Drake, Dinah Lance"
+  },
+  {
+    "alias": "Spider Man",
+    "publisher": "Marvel Comics",
+    "name": "Peter Parker",
+    "first_appearance": "Amazing Fantasy #15",
+    "crimes": "Peter Parker"
+  },
+  {
+    "alias": "Captain America",
+    "publisher": "Marvel Comics",
+    "name": "Steve Rogers",
+    "first_appearance": "Captain America Comics #1",
+    "crimes": "Steve Rogers"
+  },
+  {
+    "alias": "Iron Man",
+    "publisher": "Marvel Comics",
+    "name": "Tony Stark",
+    "first_appearance": "Tales of Suspense #39",
+    "crimes": "Tony Stark"
+  },
+  {
+    "alias": "Thor",
+    "publisher": "Marvel Comics",
+    "name": "Thor Odinson",
+    "first_appearance": "Journey into Myster #83",
+    "crimes": "Thor Odinson"
+  },
+  {
+    "alias": "Hulk",
+    "publisher": "Marvel Comics",
+    "name": "Bruce Banner",
+    "first_appearance": "The Incredible Hulk #1",
+    "crimes": "Bruce Banner"
+  },
+  {
+    "alias": "Wolverine",
+    "publisher": "Marvel Comics",
+    "name": "James Howlett",
+    "first_appearance": "The Incredible Hulk #180",
+    "crimes": "James Howlett"
+  },
+  {
+    "alias": "Daredevil",
+    "publisher": "Marvel Comics",
+    "name": "Matthew Michael Murdock",
+    "first_appearance": "Daredevil #1",
+    "crimes": "Matthew Michael Murdock"
+  },
+  {
+    "alias": "Hawkeye",
+    "publisher": "Marvel Comics",
+    "name": "Clinton Francis Barton",
+    "first_appearance": "Tales of Suspense #57",
+    "crimes": "Clinton Francis Barton"
+  },
+  {
+    "alias": "Cyclops",
+    "publisher": "Marvel Comics",
+    "name": "Scott Summers",
+    "first_appearance": "X-Men #1",
+    "crimes": "Scott Summers"
+  },
+  {
+    "alias": "Silver Surfer",
+    "publisher": "Marvel Comics",
+    "name": "Norrin Radd",
+    "first_appearance": "The Fantastic Four #48",
+    "crimes": "Norrin Radd"
+  }
+]
