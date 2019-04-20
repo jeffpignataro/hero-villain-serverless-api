@@ -1,5 +1,6 @@
 from models.shared.person import Person
 from models.hero.hero import Hero
+from models.villain.villain import Villain
 from helpers.data import *
 
 
@@ -9,5 +10,5 @@ def getHeroById(id):
     hero = Hero(Person(heroJson['name'], heroJson['characters']),
                 heroJson['alias'],
                 heroJson['publisher'],
-                heroJson['archenemy'])
+                Villain(Person('Name Stub', 'Character Stub'), 'Alias Stub', heroJson['publisher'], 'Crimes Stub'))  # stub for getVillainbyId()
     return hero.alias
