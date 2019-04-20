@@ -26,11 +26,12 @@ def handler(event, context):
 def callApiMethod(pathArgs, qsArgs):
     controller = pathArgs[0] or {}
     function = pathArgs[1] or {}
-    method = pathArgs[2] or {}
-    id = pathArgs[3] or {}
+    file = pathArgs[2] or {}
+    method = pathArgs[3] or {}
+    id = pathArgs[4] or {}
 
     executingMethod = import_module(
-        'functions.{}.{}.{}'.format(controller, function, method))
+        'functions.{}.{}.{}'.format(controller, function, file))
     executingMethodReturnObject = getattr(executingMethod, method)(id)
     return executingMethodReturnObject
 
