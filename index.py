@@ -1,9 +1,8 @@
 import json
 
-message = ""
-
 
 def handler(event, context):
+    message = ""
     queryStringParameters = event['queryStringParameters'] or {}
     if queryStringParameters:
         message = queryStringParameters['method']
