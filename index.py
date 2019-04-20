@@ -4,7 +4,7 @@ import json
 def handler(event, context):
     message = ""
     queryStringParameters = event['queryStringParameters'] or {}
-    if queryStringParameters:
+    if queryStringParameters and 'method' in queryStringParameters:
         message = queryStringParameters['method']
     returnVal = {
         "statusCode": 200,
