@@ -6,8 +6,8 @@ from helpers.data import *
 def getHeroById(id):
     data = getJsonFromFile("heros.json")
     heroJson = getJsonObjectById(data, id)
-    hero = Hero(Person(heroJson.name, heroJson.characters),
-                heroJson.alias,
-                heroJson.publisher,
-                heroJson.archenemy)
+    hero = Hero(Person(heroJson.['name'], heroJson.['characters']),
+                heroJson.['alias'],
+                heroJson.['publisher'],
+                heroJson.['archenemy'])
     return hero.alias
