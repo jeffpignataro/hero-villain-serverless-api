@@ -1,4 +1,4 @@
-# Hero/Villan Serverless API
+# Hero/Villain Serverless API
 
 Sample Python API for serverless architecture proof of concept
 
