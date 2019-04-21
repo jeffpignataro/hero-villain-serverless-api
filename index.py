@@ -39,6 +39,10 @@ def callApiMethod(pathArgs, qsArgs):
 def responseObject(statusCode, message):
     return {
         "statusCode": statusCode,
-        "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"},
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, DELETE",
+            "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"},
         "body": json.dumps(message)
     }
