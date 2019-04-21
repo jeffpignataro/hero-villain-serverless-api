@@ -43,6 +43,6 @@ def responseObject(statusCode, message):
             "Content-Type": "application/json",
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, DELETE",
-            "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"},
+            "Access-Control-Allow-Headers": "Origin, Content-Type, Accept"},
         "body": json.dumps(message)
     }
