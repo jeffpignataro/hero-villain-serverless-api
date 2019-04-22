@@ -41,8 +41,9 @@ def responseObject(statusCode, message):
         "statusCode": statusCode,
         "headers": {
             "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "GET, POST, DELETE",
-            "Access-Control-Allow-Headers": "Origin, Content-Type, Accept"},
+            "Access-Control-Allow-Origin": "https://dtsydafbx98fb.cloudfront.net:443",
+            "Access-Control-Allow-Methods": "HEAD, GET, POST, DELETE",
+            "Access-Control-Allow-Headers": "Origin, Content-Type, Accept",
+            "Access-Control-Allow-Credentials": "true"},
         "body": json.dumps(message)
     }
