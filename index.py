@@ -41,7 +41,7 @@ def responseObject(statusCode, message):
         "statusCode": statusCode,
         "headers": {
             "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "https://80e5vibnt2.execute-api.us-west-2.amazonaws.com",
+            "Access-Control-Allow-Origin": "https://dtsydafbx98fb.cloudfront.net",
             "Access-Control-Allow-Methods": "DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT",
             "Access-Control-Allow-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,Origin,Content-Type,Accept,cache-control",
             "Access-Control-Allow-Credentials": "true"},
