@@ -5,7 +5,18 @@ from helpers.data import getJsonFromFile, getJsonObjectById
 
 
 def getAllHeroes():
-    return GetHeroData()
+    heroList = []
+    heroData = GetHeroData()
+    for hero in heroData:
+        person = Person(hero['name'], hero['characters'])
+        heroList.append(Hero(person,
+                             hero['alias'],
+                             hero['publisher'],
+                             Villain(Person('Name Stub', 'Character Stub'),
+                                     'Alias Stub',
+                                     hero['publisher'],
+                                     'Crimes Stub')))  # stub for getVillainbyId()
+    return heroList
 
 
 def getHeroById(id):
@@ -14,8 +25,11 @@ def getHeroById(id):
     hero = Hero(person,
                 heroJson['alias'],
                 heroJson['publisher'],
-                Villain(Person('Name Stub', 'Character Stub'), 'Alias Stub', heroJson['publisher'], 'Crimes Stub'))  # stub for getVillainbyId()
-    return hero.alias
+                Villain(Person('Name Stub', 'Character Stub'),
+                        'Alias Stub',
+                        heroJson['publisher'],
+                        'Crimes Stub'))  # stub for getVillainbyId()
+    return hero
 
 
 # Helper functions
